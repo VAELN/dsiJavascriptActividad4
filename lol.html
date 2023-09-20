@@ -1,0 +1,45 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Negro mode</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+   
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .dark-mode img {
+        filter: invert(100%);
+    }
+</style>
+</head>
+<body>
+    <img id="modoImagen" src="imagen-modo-claro.jpg" alt="Imagen Modo Claro">
+    <h1>No puedo seguir con esto</h1>
+    <p>Bienvenido a mi super página web que es mejor que todas las que existen actualmente!</p>
+    <button id="BotonModo">🍔</button>
+    <script src="script.js"></script>
+    <p id="p">
+        Click Button to toggle between classes
+</p>
+<button onclick="myFunc()">
+        Button
+</button>
+      .paragraphClass {
+            font-size: 30px;
+            color: red;
+        }
+function myFunc() {
+            var para = document.getElementById("p");
+            para.classList.toggle("paragraphClass");
+}
+
+</body>
+</html>
+
+

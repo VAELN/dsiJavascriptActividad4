@@ -1,0 +1,41 @@
+* Estilo del body en modo claro */
+
+body  {
+    margin: auto;
+    margin-top: 150px;
+    width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    /* transition: background-color 0.3s, color 0.3s; */
+}
+
+  /* Estilo boton en modo claro */
+
+  #BotonModo {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(30, 30, 35);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+/* Estilo del body en modo oscuro */
+
+  .dark-mode {
+    background-color: rgb(30, 30, 35);
+    color: white;
+  }
+
+
+/* Estilo del boton en modo oscuro */
+
+  .dark-mode #BotonModo {
+    background-color: white;
+    color: black;
+  }
+
